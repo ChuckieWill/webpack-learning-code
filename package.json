@@ -5,7 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+<<<<<<< HEAD
     "build": "webpack"
+=======
+    "build": "webpack --config ./build/prod.config.js",
+    "dev": "webpack-dev-server --open  --config ./build/dev.config.js"
+>>>>>>> 957eb126f03a08e7c7ff452455839a032a72b979
   },
   "author": "",
   "license": "ISC",
@@ -24,7 +29,13 @@
     "vue-loader": "^15.9.2",
     "vue-template-compiler": "^2.6.11",
     "webpack": "^4.43.0",
+<<<<<<< HEAD
     "webpack-cli": "^3.3.11"
+=======
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^4.2.2"
+>>>>>>> 957eb126f03a08e7c7ff452455839a032a72b979
   },
   "dependencies": {
     "vue": "^2.6.11"
