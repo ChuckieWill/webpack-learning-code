@@ -1,8 +1,5 @@
-<<<<<<< HEAD
+
 .DS_Store
 node_modules/
 dist/
-=======
-node_modules/
-dist/
->>>>>>> 957eb126f03a08e7c7ff452455839a032a72b979
+.vscode/
